@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title></title>
+  <style media="screen">
+    body{
+background-image: linear-gradient(to right,rgb(195, 239, 206), rgb(0, 90, 116));
+color:  #293250;
+/* color: #FC766AFF; */
+}
+    div{
+      border:3px solid black;
+      padding: 20px;
+ background-image: linear-gradient(to right,rgb(195, 239, 206), rgb(0, 90, 116));
+
+    }
+    textarea{  background-color: #ECECEB;
+  font-size: 20px;
+}
+input ,select{
+  background-color: #ECECEB;
+  color:  blue !important;
+}
+
+    h2{ width:250px;
+      margin-top: -30px;
+      margin-left: 5px;
+    background-image: linear-gradient(to right,rgb(195, 239, 206), rgb(141, 204, 181));
+  font-weight: bolder;
+    }
+    .button{
+
+	background-color:grey;
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	color:White!important;
+	font-size:20px;
+	font-weight:bold;
+	padding:13px 32px;
+  margin:2rem;
+}
+  </style>
+</head>
+
+<body>
+  <marquee style="Font-size:35px;" direction = "right">**REGISTRATION FORM**</marquee>
+
+<form class="" action="index.html" method="post">
+
+
+    <div class="">
+<h2 >Basic Details</h2>
+      <table>
+        <tr>
+          <td>Form Number</td>
+          <td><input type="text" name="FormNumber" value=""></td>
+        </tr>
+
+        <tr>
+          <td>Name </td>
+          <td><input type="text" name="Name" value=""></td>
+        </tr>
+
+        <tr>
+          <td>Roll Number </td>
+          <td><input type="text" name="Roll number" value="">
+          </td>
+        </tr>
+
+        <tr>
+          <td>Gender</td>
+
+          <td>
+            <input type="radio" id="male" name="gender" value="male">
+          Male
+            <input type="radio" id="Female" name="gender" value="Female">
+          Female
+          </td>
+        </tr>
+
+        <tr>
+          <td>  DOB </td>
+          <td>
+            <input type="date" name="DOB" value="">
+          </td>
+        </tr>
+
+        <tr>
+          <td>PWD
+          </td>
+          <td>
+            <input type="radio" name="PWD" value="">
+            Yes
+            <input type="radio" name="PWD" value="">
+            No
+          </td>
+        </tr>
+        <tr>
+
+          <td>
+            Category
+          </td>
+          <td>
+            <select size="1" style="width:165px" >
+              <option value="">General</option>
+              <option value="">OBC</option>
+              <option value="">SC</option>
+              <option value="">ST</option>
+            </select>
+          </td>
+        </tr>
+      </table>
+
+      Address
+      <br>
+      <textarea name="address" rows="6" cols="60" placeholder="Enter  Your address"></textarea>
+      <br>
+      Please Input The Correct Pin Code
+      <table>
+        <tr>
+          <td>Pin Code</td>
+          <td><input type="text" name="" value=""></td>
+        </tr>
+        <tr>
+          <td>Phone Number Student</td>
+          <td><input type="text" name="" value=""></td>
+        </tr>
+        <tr>
+          <td>Phone Number Guardian</td>
+          <td><input type="text" name="" value=""></td>
+        </tr>
+      </table>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="Acadmics">
+      <h2 >Academic Information</h2>
+      <table>
+
+        <tr>
+          <td>Course</td>
+          <td><select class="" name="">
+              <option value="">B.Tech</option>
+              <option value="">M.Tech</option>
+              <option value="">Int. Msc</option>
+              <option value="">Phd</option>
+            </select></td>
+        </tr>
+        <tr>
+          <td>Branch</td>
+          <td><input type="text" name="" value=""></td>
+        </tr>
+
+        <tr>
+          <td>Semester</td>
+          <td><select class="" name="">
+              <option value="">1st</option>
+              <option value="">2nd</option>
+              <option value="">3rd</option>
+              <option value="">4th</option>
+              <option value="">5th</option>
+              <option value="">6th</option>
+              <option value="">7th</option>
+              <option value="">8th</option>
+            </select>
+          (For which allotment will be done)
+          </td>
+        </tr>
+        <tr>
+          <td>All India Rank</td>
+          <td><input type="text" name="" value="">(2018 JEE Main/GATE)</td>
+        </tr>
+        <tr>
+          <td>Category Rank</td>
+          <td><input type="text" name="" value="">  (2018 JEE Main/GATE)</td>
+        </tr>
+        <tr>
+          <td>CGPA</td>
+          <td><input type="text" name="" value=""></td>
+        </tr>
+        <tr>
+          <td>Backlogs</td>
+          <td><input type="radio" name="Backlogs" value="">Yes
+            <input type="radio" name="Backlogs" value="">No</td>
+        </tr>
+        <tr>
+          <td>Hostel Accomodation</td>
+          <td><input type="radio" name="Hostel Accomodation" value="">Yes
+            <input type="radio" name="Hostel Accomodation" value="">No(if any)</td>
+        </tr>
+        <tr>
+          <td>Name of Hostel</td>
+          <td> <input type="text" name="" value=""></td>
+        </tr>
+        <tr>
+          <td>Room number</td>
+          <td><input type="text" name="" value=""></td>
+        </tr>
+      </table>
+    </div>
+    <br><br><br><br>
+    <div class="account">
+      <h2 >Account Details for Refunding process</h2>
+      <table>
+        <tr>
+          <td>Account Holder Name</td>
+          <td><input type="text" name="" value=""></td>
+        </tr>
+        <tr>
+          <td>Account Number</td>
+          <td><input type="text" name="" value=""></td>
+        </tr>
+        <tr>
+          <td>IFSC CODE</td>
+          <td><input type="text" name="" value=""></td>
+        </tr>
+        <tr>
+      <td>  Bank Name
+          <td><input type="text" name="" value=""></td>
+        </tr>
+        <tr>
+        <td>  Bank Branch
+          <td><input type="text" name="" value=""></td>
+        </tr>
+      </table>
+
+    </div>
+<a href=#Submit><input type="button" class="button" name="" value="Submit">
+</a>
+
+  </form>
+
+
+</body>
+
+</html>
