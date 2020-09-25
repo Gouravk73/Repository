@@ -1,0 +1,24 @@
+.container{
+      display: flex;
+	  flex-wrap: wrap-reverse;
+      justify-content: center;
+}
+
+img{
+      width: 450px;
+	  height: 350px;
+	  margin: 5px;
+	  transition: all 0.5s linear;
+	  box-shadow: 10px 10px 10px black;
+    animation-delay: 2s;
+}
+
+img:hover{
+transform: rotate(10deg);
+height: 33%;
+transform:skewX(30deg);
+}
+h1{
+  text-align: center;
+    font-family:Cursive;
+}
