@@ -1,4 +1,7 @@
+body,
 html{
+  width :100%;
+  heigh:100%;
   background: url(https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Image_created_with_a_mobile_phone.png/1200px-Image_created_with_a_mobile_phone.png) no-repeat center center fixed;
   -webkit-background-size:cover;
   -moz-background-size:cover;
