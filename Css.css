@@ -10,7 +10,9 @@ html{
 
 }
 h1{
-text-transform: capitalize:
+text-transform: capitalize;
+  color:white;
 }
 h2{
-text-transform: lowercase:}
+text-transform: lowercase;
+ color:white;}
